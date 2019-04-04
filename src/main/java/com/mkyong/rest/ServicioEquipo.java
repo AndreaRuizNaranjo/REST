@@ -33,7 +33,7 @@ public class ServicioEquipo {
     
     @POST
     @Produces({ MediaType.APPLICATION_JSON })
-    public Equipo addquipo(Equipo eq) {
+    public Equipo addEquipo(Equipo eq) {
         return EquipoDAO.addEquipo(eq);
     }
  
