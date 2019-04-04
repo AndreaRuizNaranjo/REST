@@ -25,8 +25,7 @@ public class ServicioEquipo {
     // /contextPath/servletPath/employees
     @GET
     @Produces({ MediaType.APPLICATION_JSON })
-    
-    public List<Equipo> getEquipo_JSON() {
+    public List<Equipo> getEquipo() {
         List<Equipo> equipos = EquipoDAO.getAllEquipo();
         return equipos;
     }

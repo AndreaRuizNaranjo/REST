@@ -21,9 +21,12 @@ public class Equipo
        
     }
 
-    public Equipo(String e01, String smith) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public Equipo(String IdEquipo, String NombreEquipo) {
+        this.IdEquipo = IdEquipo;
+        this.NombreEquipo = NombreEquipo;
     }
+
+ 
 
     public String getIdEquipo() {
         return IdEquipo;
